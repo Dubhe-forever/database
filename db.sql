@@ -13,7 +13,7 @@ create table User(                  #用户表
 
 create table School(
     SchoolNum varchar(10) primary key,          #院校编号
-    SchoolName varchar(10),                     #名称
+    SchoolName varchar(10)                     #名称
 );
 
 create table SchoolRangeCS(         #计算机院校排名表
