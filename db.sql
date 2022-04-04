@@ -20,14 +20,14 @@ create table SchoolRangeCS(         #计算机院校排名表
     SchoolNum varchar(10),          #院校编号
     SchoolName varchar(20),                     #名称
     SchoolRange int,                #排名
-    primary key(SchoolNum,Major)
+    primary key(SchoolNum)
 );
 
 create table SchoolRangeES(         #电信院校排名表
     SchoolNum varchar(10),          #院校编号
     SchoolName varchar(20),                     #名称
     SchoolRange int,                #排名
-    primary key(SchoolNum,Major)
+    primary key(SchoolNum)
 );
 
 create table HistorySchoolDataCS(   #计算机院校历史录取数据表
