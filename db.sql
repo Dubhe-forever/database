@@ -41,7 +41,6 @@ create table HistorySchoolDataCS(   #计算机院校历史录取数据表
 );
 
 create table HistorySchoolDataES(   #电信院校历史录取数据表
-    srange int,                     #用户排名
     HSrange int,                    #用户最高排名
     LSrange int,                    #用户最低排名
     Syear int,                      #年份
